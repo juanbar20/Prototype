@@ -1,13 +1,14 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .menu{
-    display: grid ;
-    grid-template-columns: auto auto;
     background-color: rgba(59, 56, 56, 0.747);
     padding: 10px;
     border-radius: 10px;
+    
 }
 
 .Image-logo{
@@ -23,9 +24,7 @@
     list-style: none;
     float: right;
     padding: 10px;
-    
     border-radius: 10px;
-    margin: auto;
     height: 50px;
 }
 
@@ -34,9 +33,30 @@
     color: aliceblue;
     padding: 12px;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 .menu-list-son:hover{
     background-color: aliceblue;
     color: rgba(59, 56, 56, 0.747);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.slider{
+    overflow: hidden;
+}
+
+.slider--iner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.slider--iner img{
+    width: 100%;
 }
